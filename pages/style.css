@@ -5,17 +5,18 @@
 body{
     /*colocar a cor de fundo do site*/
     background-color: rgb(114, 221, 114);
-    margin: 0px
+    margin: 0px;
 }
 nav{
     background-color: green;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
     font-size: 1.25em;
-    font-family:sans-serif
+    font-family:sans-serif;
 }
+
 a{
     text-decoration: none;
-    margin-left: 15px;
+    margin-left: 1px;
     margin-right: 10px;
     color: white;
     padding: 5px;
@@ -28,10 +29,12 @@ a:hover{
 
 header{
     text-align: center;
-    background-image: linear-gradient(to top, );
+    background-image: linear-gradient(to top, green, white);
+    padding: 20px;
 }
 #cabecalho{
     text-align: center;
+    
 }
 
 main{
@@ -50,9 +53,14 @@ main{
 
 h1{
     font-family: "Android";
+    margin-left: 10px;
+}
+
+h2{
+    font-family: "Android";
     padding-top: 15px;
     margin-left: 10px;
-    background-image: linear-gradient(to right, rgb(23, 129, 23) white transparent);
+    background-image: linear-gradient(to right, rgb(101, 255, 101), white, transparent);
 
 }
 p{
