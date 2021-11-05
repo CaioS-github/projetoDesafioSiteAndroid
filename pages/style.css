@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Android";
+    src: url(/pacote-projeto-d010/fontes/idroid.otf);
+}
+body{
+    /*colocar a cor de fundo do site*/
+    background-color: rgb(114, 221, 114);
+    margin: 0px
+}
+nav{
+    background-color: green;
+    padding-bottom: 15px;
+    font-size: 1.25em;
+    font-family:sans-serif
+}
+a{
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 10px;
+    color: white;
+    padding: 5px;
+}
+
+a:hover{
+    background-color: rgb(97, 221, 97);
+    border-radius: 1em;
+}
+
+header{
+    text-align: center;
+    background-image: linear-gradient(to top, );
+}
+#cabecalho{
+    text-align: center;
+}
+
+main{
+    margin: 0px 40px 0px 40px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    background-color:white;
+    box-shadow: black -1px 1px 10px;
+    margin-bottom: 20px;
+}
+
+#primeiroTitulo{
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+h1{
+    font-family: "Android";
+    padding-top: 15px;
+    margin-left: 10px;
+    background-image: linear-gradient(to right, rgb(23, 129, 23) white transparent);
+
+}
+p{
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+    font-size: 1.5em;
+    font-family:sans-serif
+}
+.imagens{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#videoExternoAndroid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#video{
+    background-color: green;
+
+}
+
+footer{
+    background-color: green;
+    color: white;
+    padding-bottom: 15px;
+    font-size: 1.25em;
+    font-family:sans-serif;
+    text-align: center;
+}
